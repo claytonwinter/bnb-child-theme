@@ -1,0 +1,31 @@
+/* 
+Theme Name: B&B Child Theme
+Theme URI: https://github.com/elementor/hello-theme/
+Description: This theme was made to work with WP Booking System
+Author: Clayton Winter
+Author URI: https://claytonwinter.ca
+Template: hello-elementor
+Version: 1.4
+Text Domain: bnb-child-theme
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    
+    Functions will add the Booking Admin role to allow for a clean login area.
+
+    wpbs-form-field-payment_method for cleaner checkout process
+    
+    CSS keep the search widget looking nice in popups. Add this snippet to </body> - End in Custom Code within Elementor for popups to work correctly. This triggers the search so the user can select the dates properly. 
+
+    <script>
+	jQuery(document).on('elementor/popup/show', () => {
+        jQuery(".dialog-widget .wpbs_s-search-widget-datepicker-submit").trigger('click');
+	});	
+</script>
+*/
+
+
+
